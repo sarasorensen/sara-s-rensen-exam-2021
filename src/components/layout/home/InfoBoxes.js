@@ -16,6 +16,8 @@ const InfoBoxes = () => {
             variant="top"
             className="infoBoxes__img"
             src={Hotel}
+            width="238"
+            height="150"
             alt="Light stone buildings"
           />
           <Card.Body>
@@ -34,6 +36,8 @@ const InfoBoxes = () => {
             variant="top"
             className="infoBoxes__img"
             src={Contact}
+            width="238"
+            height="150"
             alt="Person with hat on in pool"
           />
           <Card.Body>
@@ -52,6 +56,8 @@ const InfoBoxes = () => {
             variant="top"
             className="IinfoBoxes__img"
             src={Book}
+            width="238"
+            height="150"
             alt="Books with beach in background"
           />
           <Card.Body>

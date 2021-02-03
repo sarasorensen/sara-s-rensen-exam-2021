@@ -41,8 +41,7 @@ function HomeItem({ id, name, image, price, email }) {
 HomeItem.propTypes = {
   id: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
-  email: PropTypes.string.isRequired,
-  price: PropTypes.string.isRequired,
+  price: PropTypes.number.isRequired,
 };
 
 export default HomeItem;

@@ -4,7 +4,13 @@ import Header from "../../../images/header22.jpg";
 function HomeHeader() {
   return (
     <>
-      <img src={Header} className="home__header" alt="company header " />
+      <img
+        src={Header}
+        width="421"
+        height="247"
+        className="home__header"
+        alt="company header "
+      />
     </>
   );
 }

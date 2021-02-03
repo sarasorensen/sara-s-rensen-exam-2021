@@ -1,7 +1,7 @@
 .home__header {
   min-width: 100%;
   max-width: 100%;
-  max-height: 100%;
+  min-height: 100%;
   z-index: -1;
   position: absolute;
   right: 0;
@@ -44,7 +44,8 @@
   box-shadow: $box__shadow;
 }
 .infoBoxes__img {
-  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
   max-height: 100%;
 }
 .infoBoxes__link {

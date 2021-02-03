@@ -15,6 +15,7 @@
     "react-hook-form": "^6.15.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
+    "terser-webpack-plugin": "^5.1.1",
     "web-vitals": "^0.2.4",
     "yup": "^0.32.8"
   },
@@ -42,5 +43,10 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "compression-webpack-plugin": "^7.1.2",
+    "envify": "^4.1.0",
+    "terser": "^5.5.1",
+    "uglifyjs-webpack-plugin": "^2.2.0"
+  }
 }
