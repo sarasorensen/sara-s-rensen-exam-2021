@@ -1,0 +1,47 @@
+.dropdown {
+  width: 97.5%;
+  overflow: scroll;
+  position: absolute;
+  z-index: 1;
+  min-height: 210px;
+  max-height: 210px;
+  background-color: $color__white;
+  & .home__card {
+    width: 100vh;
+    min-height: 100%;
+    max-height: 100%;
+    margin-left: 1em;
+    border: none;
+  }
+  & .home__img {
+    float: left;
+    width: 100px;
+    max-width: 100px;
+    height: 100px;
+    max-height: 100px;
+    margin-top: 2em;
+    margin-right: 5%;
+    border-radius: 0px;
+  }
+  & .home__title {
+    text-align: left;
+    margin-left: 14%;
+    margin-top: 2em;
+  }
+  & .home__price {
+    text-align: left;
+    margin-left: 14%;
+  }
+  & .btn__card {
+    @include button;
+    float: left;
+  }
+}
+ul {
+  list-style: none;
+}
+@media (max-width: 767px) {
+  .dropdown {
+    top: 35%;
+  }
+}

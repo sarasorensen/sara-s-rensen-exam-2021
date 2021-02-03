@@ -1,0 +1,37 @@
+.spinner {
+  min-width: 100%;
+  min-height: 100vh;
+  & .spinner__animation {
+    margin: 0 auto;
+    margin-top: 25%;
+    border: 5px solid $color__main;
+    border-top: 5px solid $color__beige;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    -moz-animation: spin 2s linear infinite;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

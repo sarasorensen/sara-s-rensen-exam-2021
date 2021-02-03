@@ -1,0 +1,39 @@
+.hotel {
+  padding-bottom: 10%;
+  margin-top: 5%;
+  @include flex__row;
+}
+.hotel__card {
+  color: $color__black;
+  margin: 1em;
+  width: 100%;
+  min-height: 450px;
+  max-height: 450px;
+  text-decoration: none;
+  & .hotel__img {
+    min-width: 25vh;
+    min-height: 30vh;
+    max-height: 30vh;
+  }
+  & .hotel__title {
+    margin-top: 2em;
+    font-size: 1.5em;
+    color: $color__blue;
+  }
+}
+.hotel__price {
+  font-weight: 500;
+}
+.hotel__ul {
+  padding: 0;
+}
+@media (max-width: 767px) {
+  .hotel {
+    flex-direction: column;
+    & .hotel__card {
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 1em;
+    }
+  }
+}
